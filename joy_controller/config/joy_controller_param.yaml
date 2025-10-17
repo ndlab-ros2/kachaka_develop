@@ -1,0 +1,41 @@
+joy_controller_node:
+  ros__parameters:
+    # subscribing topic name
+    sub_topic: 
+      joy: "/operation/joy_linux/joy"
+      autonomouse_cmd_vel: "/cmd_vel"
+
+    # publishing topic name
+    pub_topic: 
+      cmd_vel: "/kachaka/manual_control/cmd_vel"
+      kachaka_command: "/kachaka/command"   # 発話コマンドを送る用
+
+    # joy button/axis indices
+    joy_top_left_button_idx: 4  # press this button to slow down
+    joy_top_right_button_idx: 5 # press this button to enable operation
+    joy_left_stick_x_idx: 0
+    joy_left_stick_y_idx: 1
+    joy_right_stick_x_idx: 3
+    joy_right_stick_y_idx: 4
+
+    joy_move_shelf_home_button_idx: 0   #☓ボタン (ホームに移動)
+    joy_move_charging_dock_button_idx: 1   #○ボタン (発話ver.1)
+    joy_move_home_button_idx: 2   #△ボタン (シェルフのホームに移動)
+    joy_localization_button_idx: 3   #□ボタン (充電ドックに移動)
+    joy_cmd_vel_slowdown_button_idx: 4   #L1ボタン (スローダウン)
+    joy_deadline_button_idx: 5   #R1ボタン (デットボタン)
+    joy_dokking_button_idx: 6   #L2ボタン (シェルフとのドッキング)
+    joy_undokking_button_idx: 7   #R2ボタン (シェルフとのドッキング解除)
+    joy_half_turn_button_idx: 8   #SHAREボタン (半回転)
+    joy_speak_button_idx: 9   #OPTIONSボタン (自己位置の修正)
+    joy_Forced_termination_button_idx: 10   #プレステーションのロゴボタン (動作の強制停止)
+    joy_move_specified_position_1_button_idx: 11   #左スティック押し込みボタン (指定位置1への移動)
+    joy_move_specified_position_2_button_idx: 12   #右スティック押し込みボタン (指定位置2への移動)
+
+
+    # max speed settings
+    abs_max_linear_speed: 0.5 # m/s
+    abs_max_angular_speed: 0.75 # rad/s
+
+    # joystick device
+    input_joy_device: "/dev/input/js0"
