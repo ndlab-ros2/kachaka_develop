@@ -1,6 +1,7 @@
 # kachaka_ROS2_package
 
  [スマートファニチャー・プラットホーム「カチャカ」](https://kachaka.life/)ROS2用パッケージ群
+ <img src="C:\Users\81906\OneDrive\デスクトップ\保存画像\kachaka.png" style="width: 500px; height: auto;">
 
 ## 目次
 <!-- TOC -->
