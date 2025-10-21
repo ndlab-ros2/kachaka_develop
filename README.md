@@ -2,7 +2,7 @@
 
  [スマートファニチャー・プラットホーム「カチャカ」](https://kachaka.life/)ROS2用パッケージ群
  
-![Image](https://github.com/user-attachments/assets/ac880648-8ff6-4046-a70e-bb9f08267a01)
+<img src="https://github.com/user-attachments/assets/ac880648-8ff6-4046-a70e-bb9f08267a01" alt="Image" width="400" height="300">
 
 ## 目次
 <!-- TOC -->
