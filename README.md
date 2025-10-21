@@ -1,7 +1,8 @@
 # kachaka_ROS2_package
 
  [スマートファニチャー・プラットホーム「カチャカ」](https://kachaka.life/)ROS2用パッケージ群
-![Image](https://github.com/user-attachments/assets/d205efc0-7201-4792-8e70-3fee1f0d3889)
+ 
+![Image](![kachaka](https://github.com/user-attachments/assets/1495032f-7b82-41da-9b41-012ccf41ff3f))
 
 ## 目次
 <!-- TOC -->
