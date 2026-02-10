@@ -22,6 +22,7 @@
 ### パッケージ構成
 |パッケージ名|説明|
 |---|---|
+|inside_action_demos|カチャカの各動作のコード。[kachaka_description](https://github.com/pf-robotics/kachaka-api/tree/v3.8.5/ros2/kachaka_description)に基づいています|
 |kachaka_description|カチャカの各部分のリンクやジョイント、又はセンサの情報を表示するパッケージ。[kachaka_description](https://github.com/pf-robotics/kachaka-api/tree/v3.8.5/ros2/kachaka_description)に基づいています|
 |kachaka_interfaces|カチャカのアクション、メッセージファイルを管理するパッケージ。[kachaka_interfaces](https://github.com/pf-robotics/kachaka-api/tree/v3.8.5/ros2/kachaka_interfaces)に基づいています|
 |kachaka_nav2_bringup|Navigation2(Nav2)における自律走行を行うためのパッケージ。[kachaka_nav2_bringup](https://github.com/pf-robotics/kachaka-api/tree/v3.8.5/ros2/demos/kachaka_nav2_bringup)に基づいています|
